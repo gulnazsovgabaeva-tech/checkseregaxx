@@ -10,6 +10,7 @@ import os
 import re
 import json
 import sys
+import time
 from datetime import datetime, timezone
 
 import requests
@@ -142,6 +143,20 @@ def send_telegram(text: str, html: bool = False, disable_preview: bool = True) -
 
 
 def scrape():
+    """Грузит страницу с несколькими попытками (на случай обрыва связи)."""
+    last_err = None
+    for attempt in range(1, 4):
+        try:
+            return _scrape_once()
+        except Exception as e:
+            last_err = e
+            print(f"Попытка {attempt} из 3 не удалась: {e}")
+            if attempt < 3:
+                time.sleep(12)
+    raise last_err
+
+
+def _scrape_once():
     """Возвращает (текст_раздела, список_ссылок, список_уценённых_товаров)."""
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
