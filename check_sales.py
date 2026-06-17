@@ -61,6 +61,24 @@ FIND_SALES_JS = r"""
     }
     return false;
   }
+  function cleanName(s){
+    s=(s||'').replace(/\s+/g,' ').trim();
+    s=s.replace(/^(pink|blue|black|white|red|green|purple|gold|brown|floral|print|gray|grey|navy|ivory|beige|orange|yellow|nude|silver|leopard|striped|animal|multi|cream|tan|teal|burgundy|maroon|lavender|mint|peach|rose)\s+/i,'');
+    return s;
+  }
+  function looksLikeName(t){ return t && t.length>4 && t.length<90 && !priceRe.test(t); }
+  function findName(card){
+    if(!card) return null;
+    let h=card.querySelector('h1,h2,h3,h4');
+    if(h && looksLikeName((h.textContent||'').trim())) return (h.textContent||'').trim();
+    let c=card.querySelector('[class*="ame"],[class*="itle"],[class*="roduct"],[data-testid*="ame"],[data-testid*="itle"]');
+    if(c && looksLikeName((c.textContent||'').trim())) return (c.textContent||'').trim();
+    let img=card.querySelector('img[alt]');
+    if(img){ const t=cleanName(img.getAttribute('alt')); if(looksLikeName(t)) return t; }
+    let a=card.querySelector('a[aria-label]');
+    if(a){ const t=(a.getAttribute('aria-label')||'').trim(); if(looksLikeName(t)) return t; }
+    return null;
+  }
   const root = document.querySelector('main') || document.getElementById('main') || document.body;
   const els = Array.from(root.querySelectorAll('*'));
   const sales = [];
@@ -71,12 +89,13 @@ FIND_SALES_JS = r"""
     if (Array.from(el.children).some(c => (c.textContent||'').trim()===t)) continue;
     if (!isStruck(el)) continue;
     const oldPrice = getPrice(t); if(!oldPrice) continue;
-    let node=el, name=null, newPrice=null;
-    for (let i=0;i<10 && node;i++){
+    let node=el, name=null, newPrice=null, url=null;
+    for (let i=0;i<14 && node;i++){
       node=node.parentElement; if(!node) break;
-      if(!name){
-        const h=node.querySelector('h1,h2,h3,h4');
-        if(h){ const ht=(h.textContent||'').trim(); if(ht && !priceRe.test(ht)) name=ht; }
+      if(!name) name = findName(node);
+      if(!url){
+        const a=node.querySelector('a[href*="catalog"],a[href*="sleepwear-and-lingerie"]');
+        if(a && a.href) url=a.href;
       }
       if(!newPrice){
         const cand=Array.from(node.querySelectorAll('*')).filter(x=>{
@@ -86,9 +105,9 @@ FIND_SALES_JS = r"""
         });
         for(const c of cand){ if(isStruck(c)) continue; const p=getPrice(c.textContent); if(p && p!==oldPrice){newPrice=p;break;} }
       }
-      if(name&&newPrice) break;
+      if(name&&newPrice&&url) break;
     }
-    sales.push({name: name||'Пижама (см. сайт)', oldPrice: oldPrice, newPrice: newPrice||'?'});
+    sales.push({name: name||'Пижама (см. сайт)', oldPrice: oldPrice, newPrice: newPrice||'?', url: url||''});
   }
   const seen=new Set(), out=[];
   for(const s of sales){ const k=s.name+'|'+s.oldPrice+'|'+s.newPrice; if(!seen.has(k)){seen.add(k);out.push(s);} }
@@ -97,15 +116,25 @@ FIND_SALES_JS = r"""
 """
 
 
-def send_telegram(text: str) -> None:
+def html_escape(s: str) -> str:
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def send_telegram(text: str, html: bool = False, disable_preview: bool = True) -> None:
     if not TG_TOKEN or not TG_CHAT:
         print("Нет TELEGRAM_BOT_TOKEN или TELEGRAM_CHAT_ID — пропускаю отправку.")
         return
+    data = {
+        "chat_id": TG_CHAT,
+        "text": text[:4000],
+        "disable_web_page_preview": disable_preview,
+    }
+    if html:
+        data["parse_mode"] = "HTML"
     try:
         r = requests.post(
             f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-            data={"chat_id": TG_CHAT, "text": text[:4000], "disable_web_page_preview": False},
-            timeout=30,
+            data=data, timeout=30,
         )
         print("Telegram статус:", r.status_code)
     except Exception as e:
@@ -162,15 +191,23 @@ def scrape():
     return main_text, links, sales
 
 
+def strip_query(url: str) -> str:
+    return (url or "").split("?")[0]
+
+
 def collect_signals(main_text, links, sales):
-    signals = set()
+    keys = set()
+    details = {}  # key -> (display_text, url_or_None)
 
     # 1) Уценённые товары (зачёркнутая цена)
     for s in sales:
         name = (s.get("name") or "Пижама").strip()
         old = s.get("oldPrice") or "?"
         new = s.get("newPrice") or "?"
-        signals.add(f"🔻 {name}: {old} → {new}")
+        url = strip_query(s.get("url") or "")
+        key = f"sale|{name}|{old}|{new}"
+        keys.add(key)
+        details[key] = (f"🔻 {name}: {old} → {new}", url or None)
 
     # 2) Сонные офферы из меню
     for l in links:
@@ -180,7 +217,9 @@ def collect_signals(main_text, links, sales):
             continue
         if MENU_PROMO_RE.search(text) and (MENU_SLEEP_RE.search(text) or MENU_SLEEP_RE.search(href)):
             clean = re.sub(r"\s+", " ", text)
-            signals.add(f"🛏 {clean}")
+            key = f"menu|{clean}"
+            keys.add(key)
+            details[key] = (f"🛏 {clean}", href or None)
 
     # 3) Баннеры-плашки в тексте раздела
     flat = re.sub(r"\s+", " ", main_text)
@@ -188,18 +227,23 @@ def collect_signals(main_text, links, sales):
         for m in re.finditer(pat, flat, flags=re.IGNORECASE):
             t = m.group(0).strip(" .,-")
             if len(t) > 3:
-                signals.add(f"🏷 {t}")
+                key = f"banner|{t}"
+                keys.add(key)
+                details[key] = (f"🏷 {t}", None)
 
-    return signals
+    return keys, details
 
 
 def load_state():
     try:
         with open(STATE_FILE, encoding="utf-8") as f:
             st = json.load(f)
-        if "signals" not in st:          # старый формат -> начинаем заново
+        sigs = st.get("signals")
+        if sigs is None:                                  # совсем старый формат
             return set(), False
-        return set(st.get("signals", [])), bool(st.get("initialized", False))
+        if sigs and not any("|" in s for s in sigs):      # старый формат отображения
+            return set(), False
+        return set(sigs), bool(st.get("initialized", False))
     except (FileNotFoundError, json.JSONDecodeError):
         return set(), False
 
@@ -216,11 +260,23 @@ def save_state(signals):
         )
 
 
-def shorten(items, limit=20):
-    items = sorted(items)
-    if len(items) <= limit:
-        return "\n".join(items)
-    return "\n".join(items[:limit]) + f"\n…и ещё {len(items) - limit}"
+def render(keys, details, limit=25):
+    keys = sorted(keys)
+    extra = 0
+    if len(keys) > limit:
+        extra = len(keys) - limit
+        keys = keys[:limit]
+    lines = []
+    for k in keys:
+        disp, url = details.get(k, (k, None))
+        line = html_escape(disp)
+        if url:
+            line += f' <a href="{html_escape(url)}">🔗</a>'
+        lines.append(line)
+    out = "\n".join(lines)
+    if extra:
+        out += f"\n…и ещё {extra}"
+    return out
 
 
 def main():
@@ -234,23 +290,22 @@ def main():
         print("Похоже, страница не загрузилась или нас заблокировали. Пропускаю запуск.")
         sys.exit(0)
 
-    current = collect_signals(main_text, links, sales)
+    current, details = collect_signals(main_text, links, sales)
     previous, initialized = load_state()
 
+    footer = f'\n\n<a href="{html_escape(URL)}">Все пижамы →</a>'
     if not initialized:
-        msg = "✅ Бот обновлён и следит за скидками на пижамы Victoria's Secret.\n\n"
         if current:
-            msg += f"Сейчас активно ({len(current)}):\n" + shorten(current)
+            body = f"Сейчас активно ({len(current)}):\n" + render(current, details)
         else:
-            msg += "Сейчас скидок и офферов не вижу. Напишу, как только появятся."
-        msg += f"\n\n{URL}"
-        send_telegram(msg)
+            body = "Сейчас скидок и офферов не вижу. Напишу, как только появятся."
+        msg = "✅ Бот обновлён и следит за скидками на пижамы Victoria's Secret.\n\n" + body + footer
+        send_telegram(msg, html=True)
     else:
         new = current - previous
         if new:
-            msg = f"🔥 Новое в пижамах Victoria's Secret ({len(new)}):\n\n" + shorten(new)
-            msg += f"\n\n{URL}"
-            send_telegram(msg)
+            msg = f"🔥 Новое в пижамах Victoria's Secret ({len(new)}):\n\n" + render(new, details) + footer
+            send_telegram(msg, html=True)
         else:
             print("Нового нет.")
 
