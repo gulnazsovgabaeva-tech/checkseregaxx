@@ -199,12 +199,15 @@ def collect_signals(main_text, links, sales):
     keys = set()
     details = {}  # key -> (display_text, url_or_None)
 
-    # 1) Уценённые товары (зачёркнутая цена)
+    # 1) Уценённые товары (только пижамы/сон — по ссылке товара)
     for s in sales:
+        url_raw = s.get("url") or ""
+        if "sleepwear" not in url_raw.lower():   # отсекаем лифчики/трусы/косметику и пр.
+            continue
         name = (s.get("name") or "Пижама").strip()
         old = s.get("oldPrice") or "?"
         new = s.get("newPrice") or "?"
-        url = strip_query(s.get("url") or "")
+        url = strip_query(url_raw)
         key = f"sale|{name}|{old}|{new}"
         keys.add(key)
         details[key] = (f"🔻 {name}: {old} → {new}", url or None)
