@@ -1,5 +1,9 @@
 {
-  "signals": [],
-  "initialized": false,
-  "last_checked": ""
+  "signals": [
+    "menu|Buy 1, Get 1 50% Off Sleepshirts",
+    "menu|Sleep Up to 60% Off",
+    "sale|Signature Satin Long Pajama Set|$89.95|$54.99"
+  ],
+  "initialized": true,
+  "last_checked": "2026-06-17T21:37:47+00:00"
 }
