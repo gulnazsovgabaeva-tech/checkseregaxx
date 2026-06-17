@@ -1,0 +1,44 @@
+name: Check VS Pajama Sales
+
+on:
+  workflow_dispatch:        # позволяет запускать вручную кнопкой
+  schedule:
+    - cron: "*/30 * * * *"  # каждые 30 минут
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vs-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run checker
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python check_sales.py
+
+      - name: Save state
+        run: |
+          git config user.name "vs-bot"
+          git config user.email "actions@github.com"
+          git add state.json
+          git commit -m "update state [skip ci]" || echo "nothing to commit"
+          git push
