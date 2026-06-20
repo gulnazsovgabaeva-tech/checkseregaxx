@@ -1,18 +1,22 @@
 {
   "signals": [
     "banner|8/$25 Panties 12 Colors T",
-    "banner|8/$25 Panties 24 Colors T",
-    "banner|8/$25 Panties 29 Colors T",
+    "banner|8/$25 Panties 25 Colors T",
+    "banner|8/$25 Panties 31 Colors T",
+    "banner|8/$25 Panties 32 Colors V",
     "banner|8/$25 Panties 33 Colors T",
     "banner|8/$25 Panties 37 Colors T",
-    "banner|8/$25 Panties 38 Colors T",
-    "banner|8/$25 Panties 41 Colors T",
-    "banner|8/$25 Panties 46 Colors T",
-    "banner|8/$25 Panties 47 Colors T",
-    "banner|8/$25 Panties 47 Colors V",
+    "banner|8/$25 Panties 39 Colors T",
+    "banner|8/$25 Panties 40 Colors T",
+    "banner|8/$25 Panties 44 Colors T",
+    "banner|8/$25 Panties 50 Colors T",
+    "banner|8/$25 Panties 89 Colors T",
     "menu|Buy 1, Get 1 50% Off Sleepshirts",
-    "menu|Sleep Up to 60% Off"
+    "menu|Sleep Up to 60% Off",
+    "sale|Elodie Cami Boxer PJ|$80.00|$60.00",
+    "sale|Karolina Boxer PJ|$90.00|$67.50",
+    "sale|Washable Silk Bias Cami & Pant Pajama Set|$258.00|$193.50"
   ],
   "initialized": true,
-  "last_checked": "2026-06-19T22:40:20+00:00"
+  "last_checked": "2026-06-20T10:16:37+00:00"
 }
