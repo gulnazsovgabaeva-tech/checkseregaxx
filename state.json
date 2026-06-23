@@ -1,8 +1,11 @@
 {
   "signals": [
     "menu|Buy 1, Get 1 50% Off Sleepshirts",
-    "menu|Sleep Up to 60% Off"
+    "menu|Sleep Up to 60% Off",
+    "sale|100% Cotton Lace Patch Short Pajama Set|$49.95|$29.99",
+    "sale|Signature Satin Long Pajama Set|$89.95|$54.99",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99"
   ],
   "initialized": true,
-  "last_checked": "2026-06-22T22:28:58+00:00"
+  "last_checked": "2026-06-23T10:49:38+00:00"
 }
