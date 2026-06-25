@@ -3,6 +3,7 @@
     "menu|30% Off Pajama Sets",
     "menu|Buy 1, Get 1 50% Off Sleepshirts",
     "menu|Sleep Up to 60% Off",
+    "sale|100% Cotton Lace Patch Short Pajama Set|$49.95|$29.99",
     "sale|Heritage Cotton Long Pajama Set|$69.95|$48.96",
     "sale|Heritage Cotton Short Pajama Set|$59.95|$41.96",
     "sale|Signature Satin Long Pajama Set|$89.95|$54.99",
@@ -15,5 +16,5 @@
     "sale|SoSoft™ Modal Ultra-Fine Henley Top & Pant Set|$69.95|$48.96"
   ],
   "initialized": true,
-  "last_checked": "2026-06-25T17:35:03+00:00"
+  "last_checked": "2026-06-25T23:02:43+00:00"
 }
