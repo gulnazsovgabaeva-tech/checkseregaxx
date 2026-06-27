@@ -7,15 +7,14 @@
     "menu|Buy 1, Get 1 50% Off Sleepshirts",
     "menu|Sleep Up to 60% Off",
     "sale|100% Cotton Tank & Pants Set|$54.95|$38.46",
-    "sale|Cozy Pointelle Henley Long Pajama Set|$64.95|$45.46",
     "sale|Elodie Cami Boxer PJ|$80.00|$56.00",
     "sale|Heritage Cotton Long Pajama Set|$69.95|$48.96",
     "sale|Heritage Cotton Short Pajama Set|$59.95|$41.96",
     "sale|Jacky Tank & Short Sleep Set|$44.95|$33.71",
     "sale|Karolina Boxer PJ|$90.00|$63.00",
-    "sale|Lavern Sleep Set|$54.95|$41.21",
     "sale|Lisbeth Sleep Set|$59.95|$44.96",
-    "sale|Nessa Sleep Set|$54.95|$41.21",
+    "sale|Lora Sleep Set|$44.95|$33.71",
+    "sale|Matilde Sleep Set|$69.95|$52.46",
     "sale|Signature Satin Long Pajama Set|$89.95|$62.96",
     "sale|Signature Satin Short Pajama Set|$79.95|$55.96",
     "sale|SoSoft™ Modal Long Pajama Set|$79.95|$55.96",
@@ -27,5 +26,5 @@
     "sale|Washable Silk Button-Front Knicker Set|$168.00|$117.60"
   ],
   "initialized": true,
-  "last_checked": "2026-06-27T12:56:42+00:00"
+  "last_checked": "2026-06-27T16:48:27+00:00"
 }
