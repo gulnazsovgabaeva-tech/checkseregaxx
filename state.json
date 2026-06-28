@@ -7,10 +7,11 @@
     "menu|Buy 1, Get 1 50% Off Sleepshirts",
     "menu|Sleep Up to 60% Off",
     "sale|100% Cotton Tank & Pants Set|$54.95|$38.46",
+    "sale|Cotton Shadow Stripe Cropped Tank & Shorts Set|$49.95|$34.96",
     "sale|Cotton Shadow Stripe Tank & Pants Set|$59.95|$41.96",
     "sale|Elodie Cami Boxer PJ|$80.00|$56.00",
-    "sale|Heritage Cotton Long Pajama Set|$69.95|$48.96",
     "sale|Heritage Cotton Short Pajama Set|$59.95|$41.96",
+    "sale|Kit Sleep Set|$52.95|$39.71",
     "sale|Lisbeth Sleep Set|$59.95|$44.96",
     "sale|Lora Sleep Set|$44.95|$33.71",
     "sale|Matilde Sleep Set|$69.95|$52.46",
@@ -25,5 +26,5 @@
     "sale|Washable Silk Button-Front Knicker Set|$168.00|$117.60"
   ],
   "initialized": true,
-  "last_checked": "2026-06-28T08:35:01+00:00"
+  "last_checked": "2026-06-28T15:01:11+00:00"
 }
