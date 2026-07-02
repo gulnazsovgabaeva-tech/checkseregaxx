@@ -1,12 +1,34 @@
 {
   "signals": [
-    "banner|0/$40 Panties 17 Colors T",
-    "banner|0/$40 Panties 44 Colors B",
-    "banner|0/$40 Panties 49 Colors T",
-    "banner|0/$40 Panties 63 Colors V",
+    "banner|0/$40 Panties 10 Colors S",
+    "banner|0/$40 Panties 12 Colors N",
+    "banner|0/$40 Panties 28 Colors T",
+    "banner|0/$40 Panties 29 Colors T",
+    "banner|0/$40 Panties 30 Colors C",
+    "banner|0/$40 Panties 35 Colors T",
+    "banner|0/$40 Panties 36 Colors T",
+    "banner|0/$40 Panties 39 Colors T",
+    "banner|0/$40 Panties 46 Colors T",
+    "banner|0/$40 Panties 63 Colors T",
+    "banner|0/$40 Panties 72 Colors T",
+    "banner|0/$40 Panties 72 Colors V",
+    "banner|0/$40 Panties 84 Colors N",
+    "banner|0/$40 Panties 84 Colors S",
+    "banner|Save $15",
+    "banner|Save $15 When You Spend $85+ $25 Off $125 • $50",
     "menu|Sleep Up to 60% Off",
-    "menu|Up to 40% Off Clothing"
+    "menu|Up to 40% Off Clothing",
+    "sale|Betty Lou Cami + Short Set|$49.95|$37.46",
+    "sale|Elodie Cami Boxer PJ|$80.00|$56.00",
+    "sale|Jacky Tank & Short Sleep Set|$44.95|$33.71",
+    "sale|Karolina Boxer PJ|$90.00|$63.00",
+    "sale|Lavern Sleep Set|$54.95|$41.21",
+    "sale|Lisbeth Sleep Set|$59.95|$44.96",
+    "sale|Nessa Sleep Set|$54.95|$41.21",
+    "sale|Starsha Sleep Set|$54.95|$41.21",
+    "sale|Tammy Cami + Short Set|$49.95|$37.46",
+    "sale|Tayler Sleep Set|$44.95|$33.71"
   ],
   "initialized": true,
-  "last_checked": "2026-07-01T22:51:46+00:00"
+  "last_checked": "2026-07-02T10:17:04+00:00"
 }
