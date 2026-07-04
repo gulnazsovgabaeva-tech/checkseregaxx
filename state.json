@@ -1,21 +1,17 @@
 {
   "signals": [
-    "banner|0/$40 Panties 10 Colors C",
+    "banner|0/$40 Panties 10 Colors T",
+    "banner|0/$40 Panties 13 Colors N",
     "banner|0/$40 Panties 13 Colors T",
-    "banner|0/$40 Panties 20 Colors C",
-    "banner|0/$40 Panties 20 Colors T",
-    "banner|0/$40 Panties 24 Colors T",
-    "banner|0/$40 Panties 26 Colors T",
-    "banner|0/$40 Panties 31 Colors N",
-    "banner|0/$40 Panties 32 Colors S",
-    "banner|0/$40 Panties 32 Colors T",
+    "banner|0/$40 Panties 22 Colors T",
+    "banner|0/$40 Panties 23 Colors T",
+    "banner|0/$40 Panties 31 Colors T",
     "banner|0/$40 Panties 35 Colors T",
     "banner|0/$40 Panties 37 Colors T",
     "banner|0/$40 Panties 44 Colors T",
-    "banner|0/$40 Panties 44 Colors V",
-    "banner|0/$40 Panties 60 Colors T",
+    "banner|0/$40 Panties 59 Colors T",
     "banner|0/$40 Panties 72 Colors T",
-    "banner|0/$40 Panties 79 Colors T",
+    "banner|0/$40 Panties 79 Colors S",
     "banner|Save $15",
     "banner|Save $15 When You Spend $85+ $25 Off $125 • $50",
     "menu|Sleep Up to 60% Off",
@@ -32,5 +28,5 @@
     "sale|Tayler Sleep Set|$44.95|$33.71"
   ],
   "initialized": true,
-  "last_checked": "2026-07-04T07:32:19+00:00"
+  "last_checked": "2026-07-04T12:13:26+00:00"
 }
