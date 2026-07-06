@@ -1,18 +1,21 @@
 {
   "signals": [
+    "banner|0/$40 Panties 10 Colors C",
     "banner|0/$40 Panties 10 Colors T",
-    "banner|0/$40 Panties 12 Colors N",
+    "banner|0/$40 Panties 11 Colors T",
     "banner|0/$40 Panties 12 Colors T",
     "banner|0/$40 Panties 21 Colors T",
     "banner|0/$40 Panties 23 Colors T",
-    "banner|0/$40 Panties 27 Colors T",
-    "banner|0/$40 Panties 30 Colors T",
+    "banner|0/$40 Panties 28 Colors S",
+    "banner|0/$40 Panties 28 Colors T",
     "banner|0/$40 Panties 34 Colors T",
-    "banner|0/$40 Panties 37 Colors T",
-    "banner|0/$40 Panties 41 Colors T",
-    "banner|0/$40 Panties 57 Colors T",
+    "banner|0/$40 Panties 36 Colors T",
+    "banner|0/$40 Panties 38 Colors T",
+    "banner|0/$40 Panties 43 Colors T",
+    "banner|0/$40 Panties 58 Colors N",
+    "banner|0/$40 Panties 58 Colors T",
     "banner|0/$40 Panties 66 Colors T",
-    "banner|0/$40 Panties 76 Colors S",
+    "banner|0/$40 Panties 76 Colors T",
     "banner|10% Off Your Purchase Online only",
     "banner|10% Off Your Purchase TODAY ONLY",
     "menu|Sleep Up to 60% Off",
@@ -22,11 +25,11 @@
     "sale|Karolina Boxer PJ|$90.00|$63.00",
     "sale|Lavern Sleep Set|$54.95|$41.21",
     "sale|Lisbeth Sleep Set|$59.95|$44.96",
-    "sale|Matilde Sleep Set|$69.95|$52.46",
     "sale|Nessa Sleep Set|$54.95|$41.21",
+    "sale|Starsha Sleep Set|$54.95|$41.21",
     "sale|Tammy Cami + Short Set|$49.95|$37.46",
     "sale|Washable Silk Bias Cami & Pant Pajama Set|$258.00|$180.60"
   ],
   "initialized": true,
-  "last_checked": "2026-07-05T20:02:48+00:00"
+  "last_checked": "2026-07-06T00:16:50+00:00"
 }
