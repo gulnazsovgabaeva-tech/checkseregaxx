@@ -1,24 +1,23 @@
 {
   "signals": [
-    "banner|0/$40 Panties 10 Colors C",
+    "banner|0/$40 Panties 10 Colors L",
     "banner|0/$40 Panties 10 Colors T",
-    "banner|0/$40 Panties 14 Colors T",
-    "banner|0/$40 Panties 24 Colors T",
-    "banner|0/$40 Panties 25 Colors T",
-    "banner|0/$40 Panties 31 Colors S",
-    "banner|0/$40 Panties 31 Colors T",
-    "banner|0/$40 Panties 33 Colors T",
-    "banner|0/$40 Panties 35 Colors T",
+    "banner|0/$40 Panties 16 Colors T",
+    "banner|0/$40 Panties 31 Colors C",
+    "banner|0/$40 Panties 35 Colors N",
+    "banner|0/$40 Panties 36 Colors S",
     "banner|0/$40 Panties 36 Colors T",
+    "banner|0/$40 Panties 36 Colors V",
+    "banner|0/$40 Panties 37 Colors T",
+    "banner|0/$40 Panties 38 Colors T",
     "banner|0/$40 Panties 41 Colors T",
-    "banner|0/$40 Panties 63 Colors N",
-    "banner|0/$40 Panties 63 Colors T",
-    "banner|0/$40 Panties 66 Colors T",
-    "banner|0/$40 Panties 74 Colors L",
-    "banner|0/$40 Panties 74 Colors T",
+    "banner|0/$40 Panties 47 Colors T",
+    "banner|0/$40 Panties 67 Colors T",
+    "banner|0/$40 Panties 68 Colors T",
+    "banner|0/$40 Panties 78 Colors T",
     "menu|Sleep Up to 60% Off",
     "menu|Up to 40% Off Clothing"
   ],
   "initialized": true,
-  "last_checked": "2026-07-06T21:06:16+00:00"
+  "last_checked": "2026-07-07T10:31:50+00:00"
 }
