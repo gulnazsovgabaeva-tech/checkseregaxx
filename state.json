@@ -1,19 +1,9 @@
 {
   "signals": [
-    "banner|5/$35 Panties 10 Colors T",
-    "banner|5/$35 Panties 13 Colors T",
-    "banner|5/$35 Panties 28 Colors T",
-    "banner|5/$35 Panties 30 Colors T",
-    "banner|5/$35 Panties 33 Colors T",
-    "banner|5/$35 Panties 37 Colors T",
-    "banner|5/$35 Panties 42 Colors L",
-    "banner|5/$35 Panties 48 Colors C",
-    "banner|5/$35 Panties 57 Colors T",
-    "banner|5/$35 Panties 70 Colors T",
-    "banner|5/$35 Panties 83 Colors B",
-    "banner|5/$35 Panties 83 Colors T",
-    "menu|Up to 40% Off Clothing"
+    "menu|Up to 40% Off Clothing",
+    "sale|Signature Satin Long Pajama Set|$89.95|$54.99",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99"
   ],
   "initialized": true,
-  "last_checked": "2026-07-09T09:06:55+00:00"
+  "last_checked": "2026-07-09T17:27:01+00:00"
 }
