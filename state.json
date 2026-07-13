@@ -1,18 +1,10 @@
 {
   "signals": [
-    "banner|40% Off Your Purchase FLASH SALE &#82",
-    "banner|40% Off Your Purchase Online only",
-    "sale|Cotton Shadow Stripe Cropped Tank & Shorts Set|$49.95|$29.97",
-    "sale|Cotton Shadow Stripe Tank & Pants Set|$59.95|$35.97",
-    "sale|Cozy Pointelle Henley Long Pajama Set|$64.95|$38.97",
-    "sale|Signature Satin Long Pajama Set|$89.95|$53.97",
-    "sale|Signature Satin Short Pajama Set|$79.95|$47.97",
-    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$47.97",
-    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99",
-    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$41.97",
-    "sale|SoSoft™ Modal Ultra-Fine Cami & Short Set|$49.95|$29.97",
-    "sale|SoSoft™ Modal Ultra-Fine Henley Top & Pant Set|$69.95|$41.97"
+    "banner|Save $15",
+    "banner|Save $15 When You Spend $75+ $25 Off $100 • $50",
+    "menu|Up to 40% Off Clothing",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99"
   ],
   "initialized": true,
-  "last_checked": "2026-07-12T22:33:45+00:00"
+  "last_checked": "2026-07-13T10:47:35+00:00"
 }
