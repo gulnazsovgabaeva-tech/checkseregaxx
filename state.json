@@ -1,15 +1,20 @@
 {
   "signals": [
-    "banner|25% Off",
-    "banner|25% Off a $60+ Purchase LAST DAY",
-    "sale|Caileigh Sleep Set|$59.95|$44.96",
-    "sale|Eloisa Sleep Set|$54.95|$41.21",
-    "sale|Jayden Tank and Pants Sleep Set|$54.95|$41.21",
-    "sale|Katya Lounge Set|$64.95|$48.71",
-    "sale|Madelynne Long Sleeve Top + Short Sleep Set|$64.95|$48.71",
-    "sale|Rayne Sleep Set|$49.95|$37.46",
-    "sale|Sammie Sleep Set|$64.95|$48.71"
+    "banner|Buy 2 Get 3 Free Body Fragrance Brulee Fragra",
+    "banner|Buy 2 Get 3 Free Just Dropped Very Sexy Low-C",
+    "banner|Save $25 When You Spend $125 or $50 Off $200+",
+    "banner|Save $25&#160;",
+    "menu|30% Off Pajama Sets",
+    "sale|100% Cotton Cami & Short Set|$49.95|$34.96",
+    "sale|Pointelle Rib Long-Sleeve Tee & Short Set|$59.95|$41.96",
+    "sale|Pointelle Rib Tank & Pant Set|$69.95|$48.96",
+    "sale|Signature Satin Long Pajama Set|$89.95|$62.96",
+    "sale|Signature Satin Short Pajama Set|$79.95|$55.96",
+    "sale|Signature Satin Short-Sleeve Long Pajama Set|$84.95|$59.46",
+    "sale|SoSoft™ Modal 3-Piece Set|$89.95|$62.96",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$55.96",
+    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96"
   ],
   "initialized": true,
-  "last_checked": "2026-07-30T06:34:43+00:00"
+  "last_checked": "2026-07-30T09:35:25+00:00"
 }
