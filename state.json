@@ -1,12 +1,12 @@
 {
   "signals": [
     "banner|Buy 2 Get 3 Free Mist Collection Just Dropped",
-    "banner|Buy 2 Get 3 Free Mist Collection New Color Vi",
     "banner|Save $25 When You Spend $125 or $50 Off $200+",
     "banner|Save $25&#160;",
     "menu|30% Off Pajama Sets",
     "sale|100% Cotton Cami & Short Set|$49.95|$34.96",
     "sale|100% Cotton Tee Long Pajama Set|$54.95|$38.46",
+    "sale|Pointelle Rib Tank & Pant Set|$69.95|$48.96",
     "sale|Signature Satin Long Pajama Set|$89.95|$62.96",
     "sale|Signature Satin Short Pajama Set|$79.95|$55.96",
     "sale|Signature Satin Short-Sleeve Long Pajama Set|$84.95|$59.46",
@@ -16,5 +16,5 @@
     "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96"
   ],
   "initialized": true,
-  "last_checked": "2026-08-01T04:57:54+00:00"
+  "last_checked": "2026-08-01T07:34:32+00:00"
 }
