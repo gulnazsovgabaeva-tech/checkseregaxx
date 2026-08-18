@@ -1,8 +1,19 @@
 {
   "signals": [
-    "banner|25% Off",
-    "banner|25% Off When You Spend $75+ LAST DAY"
+    "banner|10% Off Your Purchase Just Dropped +1",
+    "banner|10% Off Your Purchase Online only",
+    "banner|10% Off Your Purchase TODAY ONLY &#82",
+    "sale|Eloise Sleep Set|$44.95|$26.97",
+    "sale|Jacky Tank & Short Sleep Set|$49.95|$29.97",
+    "sale|Kathy Sleep Set|$59.95|$35.97",
+    "sale|Kit Sleep Set|$52.95|$31.77",
+    "sale|Signature Satin Long Pajama Set|$89.95|$53.97",
+    "sale|Signature Satin Short Pajama Set|$79.95|$47.97",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$47.97",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99",
+    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$41.97",
+    "sale|Tiani Sleep Set|$49.95|$29.97"
   ],
   "initialized": true,
-  "last_checked": "2026-08-18T08:46:27+00:00"
+  "last_checked": "2026-08-18T09:41:04+00:00"
 }
