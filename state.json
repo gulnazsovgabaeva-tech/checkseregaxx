@@ -1,26 +1,19 @@
 {
   "signals": [
-    "banner|10% Off Your Purchase Just Dropped +1",
     "banner|10% Off Your Purchase Online only",
+    "banner|10% Off Your Purchase Showing Items 1",
     "banner|10% Off Your Purchase TODAY ONLY &#82",
     "sale|100% Cotton Cami & Short Set|$49.95|$29.97",
     "sale|100% Cotton Tee Long Pajama Set|$54.95|$32.97",
     "sale|Cozy Plush Robe|$69.95|$41.97",
-    "sale|Eloise Sleep Set|$44.95|$26.97",
-    "sale|Jacky Tank & Short Sleep Set|$49.95|$29.97",
-    "sale|Kathy Sleep Set|$59.95|$35.97",
-    "sale|Kit Sleep Set|$52.95|$31.77",
-    "sale|Patrice Sleep Set|$49.95|$29.97",
     "sale|Signature Satin Long Pajama Set|$89.95|$53.97",
     "sale|Signature Satin Short Pajama Set|$79.95|$47.97",
     "sale|Signature Satin Short Piped Robe|$59.95|$35.97",
     "sale|SoSoft™ Modal Lace-Trim Cami & Pants Set|$69.95|$41.97",
     "sale|SoSoft™ Modal Lace-Trim Cami & Shorts Set|$49.95|$29.97",
     "sale|SoSoft™ Modal Long Pajama Set|$79.95|$47.97",
-    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$41.97",
-    "sale|Tiani Sleep Set|$49.95|$29.97",
-    "sale|Wicked Sheer Unlined Lace-Trim Babydoll Set|$89.95|$53.97"
+    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$41.97"
   ],
   "initialized": true,
-  "last_checked": "2026-08-18T17:34:31+00:00"
+  "last_checked": "2026-08-18T18:52:08+00:00"
 }
