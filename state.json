@@ -1,17 +1,9 @@
 {
   "signals": [
-    "banner|10% Off Your Purchase Online only",
-    "banner|10% Off Your Purchase Showing Items 1",
-    "banner|10% Off Your Purchase TODAY ONLY &#82",
-    "sale|Luxe Knit Tee & Short Set|$69.95|$41.97",
-    "sale|Signature Satin Long Pajama Set|$89.95|$53.97",
-    "sale|Signature Satin Short Pajama Set|$79.95|$47.97",
-    "sale|SoSoft™ Modal 3-Piece Set|$89.95|$53.97",
-    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$47.97",
-    "sale|SoSoft™ Modal Long-Sleeve Short Pajama Set|$74.95|$44.97",
-    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$41.97",
-    "sale|SoSoft™ Modal Short-Sleeve Long Pajama Set|$74.95|$44.97"
+    "banner|25% Off",
+    "banner|25% Off When You Spend $75+ LAST DAY",
+    "menu|Up to 40% off Clothing"
   ],
   "initialized": true,
-  "last_checked": "2026-08-19T07:49:44+00:00"
+  "last_checked": "2026-08-19T14:47:46+00:00"
 }
