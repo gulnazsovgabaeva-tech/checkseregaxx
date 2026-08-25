@@ -1,6 +1,5 @@
 {
   "signals": [
-    "banner|Buy 2, Get 1 Free Bras 22 Colors Very Sexy Ve",
     "banner|Buy 2, Get 1 Free Bras 30 Colors New Color Ve",
     "banner|Buy 2, Get 1 Free Bras 30 Colors Very Sexy Ve",
     "banner|Buy 2, Get 1 Free Bras 30 Colors Victoria's S",
@@ -8,17 +7,10 @@
     "banner|Buy 2, Get 1 Free Bras 8 Colors New Color Bod",
     "banner|Buy 2, Get 1 Free Bras 8 Colors New Color Vic",
     "banner|Buy 2, Get 1 Free Bras 8 Colors New Scent Fin",
-    "banner|Buy 2, Get 1 Free Bras 8 Colors Trending Drea",
-    "banner|Buy 2, Get 1 Free Bras 83 Colors Invisible by",
-    "banner|Buy 2, Get 1 Free Bras 83 Colors Trending Dre",
-    "banner|Buy 2, Get 1 Free Bras 83 Colors Trending Ver",
-    "menu|Up to 40% off Clothing",
-    "sale|Eloise Sleep Set|$44.95|$33.71",
-    "sale|Jacky Tank & Short Sleep Set|$49.95|$37.46",
-    "sale|Kathy Sleep Set|$59.95|$44.96",
-    "sale|Madeline Sleep Set|$49.95|$37.46",
-    "sale|Tiani Sleep Set|$49.95|$37.46"
+    "banner|Buy 2, Get 1 Free Bras 82 Colors Trending Dre",
+    "banner|Buy 2, Get 1 Free Bras 82 Colors Trending Ver",
+    "menu|Up to 40% off Clothing"
   ],
   "initialized": true,
-  "last_checked": "2026-08-25T10:03:30+00:00"
+  "last_checked": "2026-08-25T11:01:45+00:00"
 }
