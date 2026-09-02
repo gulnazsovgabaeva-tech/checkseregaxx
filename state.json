@@ -1,17 +1,22 @@
 {
   "signals": [
-    "banner|25% off Bras 11 Colors Trending Victo",
-    "banner|25% off Bras 29 Colors Very Sexy Envy",
-    "banner|25% off Bras 43 Colors New Scent Fine",
-    "banner|25% off Bras 79 Colors New Color No-S",
-    "banner|25% off Bras 8 Colors Just Dropped No",
-    "banner|25% off Bras 8 Colors New Color Lace",
-    "banner|5/$35 or Cardmembers: 10/",
-    "menu|2/$50 Lacie Cami",
+    "banner|0/$40 Panties Just Droppe",
+    "banner|0/$40 Panties New Color C",
+    "banner|0/$40 Panties New Color V",
+    "banner|0/$40 Panties Trending Dr",
+    "banner|0/$40 Panties Trending Th",
+    "banner|0/$40 Panties Trending Vi",
+    "banner|0/$40 Panties Victoria's",
+    "menu|30% Off Pajama Sets",
     "menu|New 100% Silk",
     "menu|New 100% Silk Collection",
-    "menu|Up to 40% off Clothing"
+    "menu|Up to 40% off Clothing",
+    "sale|Signature Satin Long Pajama Set|$89.95|$62.96",
+    "sale|Signature Satin Short Pajama Set|$79.95|$55.96",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$55.96",
+    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96",
+    "sale|SoSoft™ Modal Short-Sleeve Long Pajama Set|$74.95|$52.46"
   ],
   "initialized": true,
-  "last_checked": "2026-09-02T08:58:37+00:00"
+  "last_checked": "2026-09-02T13:33:14+00:00"
 }
