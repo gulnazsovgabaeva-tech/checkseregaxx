@@ -1,20 +1,25 @@
 {
   "signals": [
-    "banner|0/$40 Panties 15 Colors T",
-    "banner|0/$40 Panties 38 Colors J",
-    "banner|0/$40 Panties 66 Colors N",
-    "banner|0/$40 Panties 80 Colors T",
-    "banner|0/$40 Panties 90 Colors N",
+    "banner|0/$40 Panties Just Droppe",
+    "banner|0/$40 Panties New Color C",
+    "banner|0/$40 Panties New Color N",
+    "banner|0/$40 Panties New Color V",
+    "banner|0/$40 Panties New Scent F",
+    "banner|0/$40 Panties Top Rated T",
+    "banner|0/$40 Panties Trending No",
+    "banner|0/$40 Panties Trending Vi",
+    "banner|0/$40 Panties Victoria's",
     "menu|30% Off Pajama Sets",
     "menu|New 100% Silk",
     "menu|New 100% Silk Collection",
     "menu|Up to 40% off Clothing",
     "sale|Signature Satin Long Pajama Set|$89.95|$62.96",
     "sale|Signature Satin Short Pajama Set|$79.95|$55.96",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99",
     "sale|SoSoft™ Modal Long Pajama Set|$79.95|$55.96",
     "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96",
     "sale|SoSoft™ Modal Short-Sleeve Long Pajama Set|$74.95|$52.46"
   ],
   "initialized": true,
-  "last_checked": "2026-09-03T16:18:27+00:00"
+  "last_checked": "2026-09-03T19:23:52+00:00"
 }
