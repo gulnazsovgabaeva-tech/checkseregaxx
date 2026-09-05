@@ -1,20 +1,14 @@
 {
   "signals": [
-    "banner|0/$40 Panties 14 Colors N",
-    "banner|0/$40 Panties 16 Colors N",
-    "banner|0/$40 Panties 38 Colors N",
-    "banner|0/$40 Panties 40 Colors L",
-    "banner|0/$40 Panties 42 Colors T",
-    "banner|0/$40 Panties 43 Colors N",
-    "banner|0/$40 Panties 43 Colors T",
-    "banner|0/$40 Panties 44 Colors N",
-    "banner|0/$40 Panties 44 Colors T",
-    "banner|0/$40 Panties 57 Colors N",
-    "banner|0/$40 Panties 63 Colors N",
-    "banner|0/$40 Panties 79 Colors J",
-    "banner|0/$40 Panties 79 Colors N",
-    "banner|0/$40 Panties 89 Colors T",
-    "banner|0/$40 Panties 89 Colors V",
+    "banner|0/$40 Panties Lace Trim C",
+    "banner|0/$40 Panties New Color C",
+    "banner|0/$40 Panties New Color N",
+    "banner|0/$40 Panties New Color V",
+    "banner|0/$40 Panties New Scent F",
+    "banner|0/$40 Panties Top Rated T",
+    "banner|0/$40 Panties Trending No",
+    "banner|0/$40 Panties Trending Vi",
+    "banner|0/$40 Panties Victoria's",
     "menu|30% Off Pajama Sets",
     "menu|New 100% Silk",
     "menu|New 100% Silk Collection",
@@ -27,5 +21,5 @@
     "sale|SoSoft™ Modal Short-Sleeve Long Pajama Set|$74.95|$52.46"
   ],
   "initialized": true,
-  "last_checked": "2026-09-04T23:54:38+00:00"
+  "last_checked": "2026-09-05T04:09:22+00:00"
 }
