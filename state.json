@@ -1,14 +1,7 @@
 {
   "signals": [
-    "banner|Buy 2, Get 1 Free Bras 8 Colors Trending Body",
-    "menu|New 100% Silk",
-    "menu|New 100% Silk Collection",
-    "sale|Eloise Sleep Set|$44.95|$33.71",
-    "sale|Jane Sleep Set|$54.95|$41.21",
-    "sale|Kathy Sleep Set|$59.95|$44.96",
-    "sale|Roxie Sleep Set|$49.95|$37.46",
-    "sale|Tiani Sleep Set|$49.95|$37.46"
+    "banner|Buy 2, Get 1 Free Bras Trending Body Fragranc"
   ],
   "initialized": true,
-  "last_checked": "2026-09-10T14:20:40+00:00"
+  "last_checked": "2026-09-10T17:49:18+00:00"
 }
