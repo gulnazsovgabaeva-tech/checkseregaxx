@@ -1,9 +1,11 @@
 {
   "signals": [
-    "banner|Buy 2, Get 1 Free Bras 21 Colors Just Dropped",
-    "banner|Buy 2, Get 1 Free Bras 35 Colors New Scent Bo",
-    "banner|Buy 2, Get 1 Free Bras 72 Colors New Scent Bo"
+    "banner|Buy 2, Get 1 Free Bras 10 Colors New Scent Bo",
+    "banner|Buy 2, Get 1 Free Bras 23 Colors Trending Dre",
+    "banner|Buy 2, Get 1 Free Bras 39 Colors Victoria's S",
+    "banner|Buy 2, Get 1 Free Bras 71 Colors New Color Bo",
+    "banner|Buy 2, Get 1 Free Bras 71 Colors Trending Bod"
   ],
   "initialized": true,
-  "last_checked": "2026-09-14T01:30:57+00:00"
+  "last_checked": "2026-09-14T07:01:11+00:00"
 }
