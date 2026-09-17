@@ -1,22 +1,13 @@
 {
   "signals": [
-    "banner|2/$50 36 Colors New Color",
-    "banner|3/$39 Select Panties 81 C",
+    "banner|2/$50 Victoria's Secret /",
     "banner|5/$19",
     "banner|Buy 2 Get 3 Free Mist Collection New Color Dr",
     "banner|Buy 2 Get 3 Free Mist Collection New Color Th",
     "banner|Buy 2 Get 3 Free Mist Collection Victoria's S",
-    "menu|100% Cotton. Soft and Breathable.",
     "menu|Sleep Up to 50% Off",
-    "sale|Caileigh Sleep Set|$59.95|$41.96",
-    "sale|Eloisa Sleep Set|$54.95|$38.46",
-    "sale|Jayden Tank and Pants Sleep Set|$54.95|$38.46",
-    "sale|Katya Lounge Set|$64.95|$45.46",
-    "sale|Madelynne Long Sleeve Top + Short Sleep Set|$64.95|$45.46",
-    "sale|Sammie Sleep Set|$64.95|$45.46",
-    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99",
-    "sale|Sophie Stripe Full-Length Cotton PJ Set|$169.99|$118.99"
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99"
   ],
   "initialized": true,
-  "last_checked": "2026-09-17T11:32:49+00:00"
+  "last_checked": "2026-09-17T16:47:44+00:00"
 }
