@@ -1,13 +1,15 @@
 {
   "signals": [
-    "banner|2/$50 Victoria's Secret /",
+    "banner|2/$50 33 Colors New Color",
+    "banner|3/$39 Select Panties 80 C",
     "banner|5/$19",
     "banner|Buy 2 Get 3 Free Mist Collection New Color Dr",
     "banner|Buy 2 Get 3 Free Mist Collection New Color Th",
     "banner|Buy 2 Get 3 Free Mist Collection Victoria's S",
+    "menu|100% Cotton. Soft and Breathable.",
     "menu|Sleep Up to 50% Off",
     "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99"
   ],
   "initialized": true,
-  "last_checked": "2026-09-17T16:47:44+00:00"
+  "last_checked": "2026-09-17T20:09:33+00:00"
 }
