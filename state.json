@@ -1,26 +1,14 @@
 {
   "signals": [
-    "banner|2/$50 34 Colors New Color",
-    "banner|7/$35 Panties 10 Colors J",
-    "banner|7/$35 Panties 10 Colors L",
-    "banner|7/$35 Panties 10 Colors T",
-    "banner|7/$35 Panties 13 Colors B",
-    "banner|7/$35 Panties 28 Colors J",
-    "banner|7/$35 Panties 66 Colors T",
-    "banner|7/$35 Panties 84 Colors T",
-    "banner|7/$35 Panties 93 Colors J",
+    "banner|7/$35 Panties Body Fragra",
+    "banner|7/$35 Panties Just Droppe",
+    "banner|7/$35 Panties Love Cloud",
+    "banner|7/$35 Panties Trending Vi",
+    "banner|7/$35 Panties Victoria's",
     "banner|Save $30 When You Spend $150+ TODAY ONLY Save $3",
-    "menu|100% Cotton. Soft and Breathable.",
     "menu|Sleep Up to 50% Off",
-    "sale|Eloise Sleep Set|$44.95|$31.46",
-    "sale|Kathy Sleep Set|$59.95|$41.96",
-    "sale|Kit Sleep Set|$52.95|$37.06",
-    "sale|Mariska Sleep Romper|$49.95|$34.96",
-    "sale|Patrice Sleep Set|$49.95|$34.96",
-    "sale|Sabreina Sleep Set|$49.95|$34.96",
-    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99",
-    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$39.99"
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$49.99"
   ],
   "initialized": true,
-  "last_checked": "2026-09-20T17:37:41+00:00"
+  "last_checked": "2026-09-20T20:40:26+00:00"
 }
