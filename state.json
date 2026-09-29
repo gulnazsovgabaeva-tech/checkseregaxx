@@ -1,8 +1,16 @@
 {
   "signals": [
-    "banner|5/$35 Panties Trending Ve",
-    "menu|Sleep Up to 50% Off"
+    "menu|Sleep Up to 50% Off",
+    "sale|August Sleep Set|$49.95|$34.96",
+    "sale|Eloise Sleep Set|$44.95|$31.46",
+    "sale|Jane Sleep Set|$54.95|$38.46",
+    "sale|Layla Boxer and Singlet Pajama Set|$79.99|$55.99",
+    "sale|Mariska Sleep Romper|$49.95|$34.96",
+    "sale|Patrice Sleep Set|$49.95|$34.96",
+    "sale|Regin Sleep Set|$54.95|$38.46",
+    "sale|Roxie Sleep Set|$49.95|$34.96",
+    "sale|Sabreina Sleep Set|$49.95|$34.96"
   ],
   "initialized": true,
-  "last_checked": "2026-09-29T00:19:06+00:00"
+  "last_checked": "2026-09-29T06:03:59+00:00"
 }
