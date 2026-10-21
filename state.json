@@ -1,14 +1,18 @@
 {
   "signals": [
-    "menu|100% Cotton",
-    "sale|Cozy Plush Robe|$69.95|$39.95",
-    "sale|CozyFlannel™ Long Pajama Set|$79.95|$49.95",
-    "sale|CozyFlannel™ Long Tee-Jama & Scrunchie Set|$69.95|$49.95",
-    "sale|CozyFlannel™ Short Pajama Set|$69.95|$49.95",
-    "sale|CozyFlannel™ Short Tee-Jama & Scrunchie Set|$59.95|$49.95",
-    "sale|Waffle Knit Long-Sleeve Short Pajama Set|$54.95|$49.95",
-    "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
+    "banner|Buy 2, Get 2",
+    "banner|Buy 2, Get 2 Free Everything LIMITED TIME Mem",
+    "banner|Buy 2, Get 2 Free Just Dropped The T-shirt La",
+    "banner|Buy 2, Get 2 Free Just Dropped Very Sexy Shin",
+    "banner|Buy 2, Get 2 Free Just Dropped Very Sexy Velv",
+    "banner|Buy 2, Get 2 Free Just Dropped Very Sexy Very",
+    "banner|Buy 2, Get 2 Free Just Dropped Victoria's Sec",
+    "banner|Buy 2, Get 2 Free New Color Victoria's Secret",
+    "banner|Buy 2, Get 2 Free Trending Very Sexy Push-Up",
+    "banner|Buy 2, Get 2 Free Trending Victoria's Secret",
+    "banner|Buy 2, Get 2 Free Victoria's Secret / Women's",
+    "menu|100% Cotton"
   ],
   "initialized": true,
-  "last_checked": "2026-10-21T04:24:31+00:00"
+  "last_checked": "2026-10-21T09:32:04+00:00"
 }
