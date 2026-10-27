@@ -1,16 +1,20 @@
 {
   "signals": [
-    "banner|Buy 2, Get 2",
-    "banner|Buy 2, Get 2 Free Everything LAST DAY Member",
-    "banner|Buy 2, Get 2 Free Just Dropped The T-shirt La",
-    "banner|Buy 2, Get 2 Free Just Dropped Very Sexy Shin",
-    "banner|Buy 2, Get 2 Free Just Dropped Victoria's Sec",
-    "banner|Buy 2, Get 2 Free New Color Dream Angels Wick",
-    "banner|Buy 2, Get 2 Free New Color Victoria's Secret",
-    "banner|Buy 2, Get 2 Free Trending Victoria's Secret",
-    "banner|Buy 2, Get 2 Free Victoria's Secret / Women's",
-    "menu|100% Cotton"
+    "menu|100% Cotton",
+    "sale|Cozy Plush Robe|$69.95|$41.97",
+    "sale|CozyFlannel™ Long Pajama Set|$79.95|$47.97",
+    "sale|CozyFlannel™ Long Tee-Jama & Scrunchie Set|$69.95|$41.97",
+    "sale|CozyFlannel™ Short Pajama Set|$69.95|$41.97",
+    "sale|CozyFlannel™ Short Tee-Jama & Scrunchie Set|$59.95|$35.97",
+    "sale|Signature Satin Long Pajama Set|$89.95|$53.97",
+    "sale|Signature Satin Luxe Long Pajama Set|$99.95|$59.97",
+    "sale|Signature Satin Short Piped Robe|$79.95|$47.97",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$47.97",
+    "sale|VSFS '26 Signature Satin Short Pajama Set|$89.95|$53.97",
+    "sale|Velvet Angel Embroidery Babydoll Set|$79.95|$47.97",
+    "sale|Waffle Knit Long-Sleeve Short Pajama Set|$54.95|$32.97",
+    "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$35.97"
   ],
   "initialized": true,
-  "last_checked": "2026-10-27T05:28:50+00:00"
+  "last_checked": "2026-10-27T10:53:32+00:00"
 }
