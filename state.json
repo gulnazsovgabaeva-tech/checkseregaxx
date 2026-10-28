@@ -1,21 +1,18 @@
 {
   "signals": [
+    "banner|Buy One, Get One Free Eau de Parfum America's #1 Fragran",
+    "banner|Buy One, Get One Free Eau de Parfum Back From the Archiv",
+    "banner|Buy One, Get One Free Eau de Parfum Just Dropped Victori",
+    "banner|Buy One, Get One Free Eau de Parfum New Color Victoria's",
+    "banner|Buy One, Get One Free Eau de Parfum Trending Fine Fragra",
     "menu|100% Cotton",
-    "sale|Cozy Plush Robe|$69.95|$41.97",
-    "sale|CozyFlannel™ Long Pajama Set|$79.95|$47.97",
-    "sale|CozyFlannel™ Long Tee-Jama & Scrunchie Set|$69.95|$41.97",
-    "sale|CozyFlannel™ Short Pajama Set|$69.95|$41.97",
-    "sale|Signature Satin Long Pajama Set|$89.95|$53.97",
-    "sale|Signature Satin Luxe Long Pajama Set|$99.95|$59.97",
-    "sale|Signature Satin Shine Shop Long Pajama Set|$149.95|$89.97",
-    "sale|Signature Satin Short Pajama Set|$79.95|$47.97",
-    "sale|Signature Satin Short Piped Robe|$79.95|$47.97",
-    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$47.97",
-    "sale|SoSoft™ Modal Ultra-Fine Henley Top & Pant Set|$69.95|$41.97",
-    "sale|VSFS '26 Signature Satin Short Pajama Set|$89.95|$53.97",
-    "sale|Waffle Knit Long-Sleeve Short Pajama Set|$54.95|$32.97",
-    "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$35.97"
+    "sale|Cozy Plush Robe|$69.95|$39.95",
+    "sale|CozyFlannel™ Long Pajama Set|$79.95|$49.95",
+    "sale|CozyFlannel™ Long Tee-Jama & Scrunchie Set|$69.95|$49.95",
+    "sale|CozyFlannel™ Short Pajama Set|$69.95|$49.95",
+    "sale|Waffle Knit Long-Sleeve Short Pajama Set|$54.95|$49.95",
+    "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
   ],
   "initialized": true,
-  "last_checked": "2026-10-28T06:10:47+00:00"
+  "last_checked": "2026-10-28T13:27:18+00:00"
 }
