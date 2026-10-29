@@ -1,17 +1,16 @@
 {
   "signals": [
-    "banner|Buy One, Get One Free Eau de Parfum America's #1 Fragran",
-    "banner|Buy One, Get One Free Eau de Parfum Fine Fragrance Heave",
     "banner|Buy One, Get One Free Eau de Parfum New Color Victoria's",
+    "banner|Buy One, Get One Free Eau de Parfum New Scent Fine Fragr",
     "banner|Buy One, Get One Free Eau de Parfum Trending Fine Fragra",
-    "banner|Buy One, Get One Free Eau de Parfum Trending Victoria's",
     "menu|100% Cotton",
     "sale|Cozy Plush Robe|$69.95|$39.95",
     "sale|CozyFlannel™ Long Pajama Set|$79.95|$49.95",
     "sale|CozyFlannel™ Short Pajama Set|$69.95|$49.95",
+    "sale|CozyFlannel™ Velvet-Trim Long Pajama Set|$79.95|$49.95",
     "sale|Waffle Knit Long-Sleeve Short Pajama Set|$54.95|$49.95",
     "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
   ],
   "initialized": true,
-  "last_checked": "2026-10-29T02:45:41+00:00"
+  "last_checked": "2026-10-29T09:45:19+00:00"
 }
