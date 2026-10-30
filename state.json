@@ -1,16 +1,21 @@
 {
   "signals": [
-    "banner|5/$31 Beauty New Color Ve",
-    "banner|5/$31 Beauty New Color Vi",
-    "banner|5/$31 Beauty New Scent Bo",
-    "banner|Buy One, Get One Free Eau de Parfum Victoria's Secret /",
+    "banner|0/$31 Panties Just Droppe",
+    "banner|0/$31 Panties New Color C",
+    "banner|0/$31 Panties New Color L",
+    "banner|0/$31 Panties New Color N",
+    "banner|0/$31 Panties New Color S",
+    "banner|0/$31 Panties New Color T",
+    "banner|0/$31 Panties New Color V",
+    "banner|0/$31 Panties Top Rated C",
+    "banner|0/$31 Panties Trending La",
+    "banner|0/$31 Panties Victoria's",
     "menu|100% Cotton",
-    "sale|Cozy Plush Robe|$69.95|$39.95",
     "sale|CozyFlannel™ Long Pajama Set|$79.95|$49.95",
     "sale|CozyFlannel™ Short Pajama Set|$69.95|$49.95",
     "sale|Waffle Knit Long-Sleeve Short Pajama Set|$54.95|$49.95",
     "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
   ],
   "initialized": true,
-  "last_checked": "2026-10-30T08:27:44+00:00"
+  "last_checked": "2026-10-30T15:16:24+00:00"
 }
