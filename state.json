@@ -1,7 +1,7 @@
 {
   "signals": [
-    "banner|5/$31 Select Beauty New C",
-    "banner|5/$31 Select Beauty Trend",
+    "banner|5/$31 Beauty New Color Vi",
+    "banner|5/$31 Beauty Trending Fin",
     "banner|Buy One, Get One Free Eau de Parfum Just Dropped Victori",
     "menu|100% Cotton",
     "sale|Cozy Plush Robe|$69.95|$39.95",
@@ -12,5 +12,5 @@
     "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
   ],
   "initialized": true,
-  "last_checked": "2026-10-29T21:43:23+00:00"
+  "last_checked": "2026-10-30T01:48:55+00:00"
 }
