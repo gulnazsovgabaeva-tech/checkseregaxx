@@ -1,14 +1,14 @@
 {
   "signals": [
     "banner|0/$31 Panties Just Droppe",
-    "banner|0/$31 Panties New Color C",
-    "banner|0/$31 Panties New Color L",
     "banner|0/$31 Panties New Color N",
     "banner|0/$31 Panties New Color T",
     "banner|0/$31 Panties New Color V",
+    "banner|0/$31 Panties No-Show No",
     "banner|0/$31 Panties Trending Co",
     "banner|0/$31 Panties Trending La",
-    "banner|0/$31 Panties Trending Se",
+    "banner|0/$31 Panties Trending No",
+    "banner|0/$31 Panties Trending Vi",
     "banner|0/$31 Panties Victoria's",
     "menu|100% Cotton",
     "sale|CozyFlannel™ Long Pajama Set|$79.95|$49.95",
@@ -17,5 +17,5 @@
     "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
   ],
   "initialized": true,
-  "last_checked": "2026-10-31T23:37:21+00:00"
+  "last_checked": "2026-11-01T05:43:43+00:00"
 }
