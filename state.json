@@ -1,8 +1,7 @@
 {
   "signals": [
-    "banner|Buy One, Get One Free Eau de Parfum Trending Fine Fragra",
-    "banner|Buy One, Get One Free Eau de Parfum Victoria's Secret /",
     "menu|100% Cotton",
+    "menu|Up to 50% Off Clothing",
     "sale|Cozy Plush Robe|$69.95|$39.95",
     "sale|CozyFlannel™ Long Pajama Set|$79.95|$49.95",
     "sale|CozyFlannel™ Long Tee-Jama & Scrunchie Set|$69.95|$49.95",
@@ -11,5 +10,5 @@
     "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
   ],
   "initialized": true,
-  "last_checked": "2026-11-04T03:08:48+00:00"
+  "last_checked": "2026-11-04T11:28:47+00:00"
 }
