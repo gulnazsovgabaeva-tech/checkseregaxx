@@ -1,12 +1,10 @@
 {
   "signals": [
+    "banner|40% off Everything Just Dropped Fine",
     "banner|40% off Everything Just Dropped Victo",
-    "banner|40% off Everything New Color No-Show",
     "banner|40% off Everything New Color Victoria",
-    "banner|40% off Everything Panty Edit The Lac",
     "banner|40% off Everything Trending Victoria'",
     "banner|40% off Everything Victoria's Secret",
-    "banner|7/$35 Panty Party Just Dr",
     "menu|100% Cotton",
     "menu|Up to 50% Off Clothing",
     "sale|Cozy Plush Robe|$69.95|$39.95",
@@ -18,5 +16,5 @@
     "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
   ],
   "initialized": true,
-  "last_checked": "2026-11-08T13:10:29+00:00"
+  "last_checked": "2026-11-08T18:27:36+00:00"
 }
