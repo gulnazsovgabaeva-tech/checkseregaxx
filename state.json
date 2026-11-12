@@ -1,22 +1,21 @@
 {
   "signals": [
-    "banner|40% off Everything Body Fragrance Fra",
-    "banner|40% off Everything Just Dropped Victo",
-    "banner|40% off Everything New Color Victoria",
-    "banner|40% off Everything Trending Victoria'",
-    "banner|40% off Everything Victoria's Secret",
+    "banner|50% Off VS Pajamas Just Dropped Victo",
+    "banner|50% Off VS Pajamas New Color Victoria",
+    "banner|50% Off VS Pajamas Trending Body Frag",
+    "banner|50% Off VS Pajamas Trending Victoria'",
+    "banner|50% Off VS Pajamas Victoria's Secret",
     "banner|Buy 1, Get 1 Free Beauty Gift Sets Just Dropped Fine",
     "banner|Buy 1, Get 1 Free Beauty Gift Sets Just Dropped Vict",
+    "banner|Buy One, Get One 50% Off VS Pajamas Just Dropped Victori",
+    "banner|Buy One, Get One 50% Off VS Pajamas New Color Victoria's",
+    "banner|Buy One, Get One 50% Off VS Pajamas Trending Body Fragra",
+    "banner|Buy One, Get One 50% Off VS Pajamas Trending Victoria's",
+    "banner|Buy One, Get One 50% Off VS Pajamas Victoria's Secret /",
     "menu|100% Cotton",
-    "sale|Cozy Plush Robe|$69.95|$39.95",
-    "sale|CozyFlannel™ Long Pajama Set|$79.95|$49.95",
-    "sale|CozyFlannel™ Long Tee-Jama & Scrunchie Set|$69.95|$49.95",
-    "sale|CozyFlannel™ Short Pajama Set|$69.95|$49.95",
-    "sale|CozyFlannel™ Short Tee-Jama & Scrunchie Set|$59.95|$49.95",
-    "sale|CozyFlannel™ Velvet-Trim Long Pajama Set|$79.95|$49.95",
-    "sale|Waffle Knit Long-Sleeve Short Pajama Set|$54.95|$49.95",
-    "sale|Waffle Knit Tank & Pant Pajama Set|$59.95|$49.95"
+    "menu|Buy One Get One 50% Off PJs",
+    "sale|Cozy Plush Robe|$69.95|$39.95"
   ],
   "initialized": true,
-  "last_checked": "2026-11-12T03:45:00+00:00"
+  "last_checked": "2026-11-12T12:28:51+00:00"
 }
