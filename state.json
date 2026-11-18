@@ -1,20 +1,18 @@
 {
   "signals": [
-    "banner|50% Off Just Dropped Victoria's Secre",
-    "banner|50% Off Trending Very Sexy Shine Stra",
-    "banner|50% Off Trending Victoria's Secret Co",
-    "banner|50% Off Trending Victoria's Secret So",
-    "banner|50% Off Victoria's Secret / Women's S",
-    "banner|Buy 1, Get 1 Free Beauty Gift Sets Trending Body Fra",
-    "banner|Buy One, Get One 50% Off Just Dropped Victoria's Secret",
-    "banner|Buy One, Get One 50% Off Trending Very Sexy Shine Strap",
-    "banner|Buy One, Get One 50% Off Trending Victoria's Secret Cozy",
-    "banner|Buy One, Get One 50% Off Trending Victoria's Secret SoSo",
-    "banner|Buy One, Get One 50% Off Victoria's Secret / Women's Sle",
-    "menu|100% Cotton",
-    "menu|Buy One Get One 50% Off PJs",
-    "sale|Cozy Plush Robe|$69.95|$39.95"
+    "banner|5/$40 Mists & Lotions New",
+    "banner|Buy 1, Get 1 Free Beauty Gift Sets Just Dropped Fine",
+    "banner|Buy 1, Get 1 Free Beauty Gift Sets Trending Victoria",
+    "menu|30% off Sleep",
+    "sale|Cozy Plush Robe|$69.95|$48.96",
+    "sale|CozyFlannel™ Cotton Long Pajama Set|$79.95|$49.95",
+    "sale|CozyFlannel™ Cotton Long Tee-Jama & Scrunchie Set|$69.95|$48.96",
+    "sale|CozyFlannel™ Cotton Short Pajama Set|$69.95|$48.96",
+    "sale|Signature Satin Long Pajama Set|$89.95|$62.96",
+    "sale|Signature Satin Short Pajama Set|$79.95|$55.96",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$55.96",
+    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96"
   ],
   "initialized": true,
-  "last_checked": "2026-11-18T02:18:28+00:00"
+  "last_checked": "2026-11-18T10:37:01+00:00"
 }
