@@ -1,8 +1,7 @@
 {
   "signals": [
-    "banner|5/$40 Mists & Lotions $24",
-    "banner|Buy 1, Get 1 Free Beauty Gift Sets Just Dropped Vict",
-    "banner|Buy 1, Get 1 Free Beauty Gift Sets Trending Victoria",
+    "banner|5/$40 Mists & Lotions $15",
+    "banner|5/$40 Mists & Lotions Tre",
     "menu|30% off Sleep",
     "sale|Cozy Plush Robe|$69.95|$48.96",
     "sale|CozyFlannel™ Cotton Long Pajama Set|$79.95|$49.95",
@@ -14,5 +13,5 @@
     "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96"
   ],
   "initialized": true,
-  "last_checked": "2026-11-20T09:04:53+00:00"
+  "last_checked": "2026-11-20T17:58:13+00:00"
 }
