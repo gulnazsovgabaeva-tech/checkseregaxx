@@ -1,6 +1,5 @@
 {
   "signals": [
-    "banner|5/$40 Mists & Lotions $15",
     "banner|5/$40 Mists & Lotions Tre",
     "menu|30% off Sleep",
     "sale|Cozy Plush Robe|$69.95|$48.96",
@@ -13,5 +12,5 @@
     "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96"
   ],
   "initialized": true,
-  "last_checked": "2026-11-20T23:56:45+00:00"
+  "last_checked": "2026-11-21T06:53:55+00:00"
 }
