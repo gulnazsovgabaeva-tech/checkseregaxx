@@ -1,17 +1,15 @@
 {
   "signals": [
-    "banner|5/$40 Mists & Lotions Jus",
-    "banner|7/$35 Panty Party Top Rat",
-    "banner|7/$35 Panty Party Trendin",
+    "banner|5/$40 Mists & Lotions Tre",
     "menu|30% off Sleep",
     "sale|Cozy Plush Robe|$69.95|$48.96",
     "sale|CozyFlannel™ Cotton Long Pajama Set|$79.95|$49.95",
     "sale|CozyFlannel™ Cotton Long Tee-Jama & Scrunchie Set|$69.95|$48.96",
     "sale|CozyFlannel™ Cotton Short Pajama Set|$69.95|$48.96",
-    "sale|Signature Satin Short Pajama Set|$79.95|$55.96",
+    "sale|Signature Satin Long Pajama Set|$89.95|$62.96",
     "sale|SoSoft™ Modal Long Pajama Set|$79.95|$55.96",
     "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96"
   ],
   "initialized": true,
-  "last_checked": "2026-11-22T09:38:12+00:00"
+  "last_checked": "2026-11-22T17:43:58+00:00"
 }
