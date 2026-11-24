@@ -1,6 +1,5 @@
 {
   "signals": [
-    "banner|5/$40 Mists & Lotions Tre",
     "menu|40% Off Sleep",
     "sale|Cozy Plush Robe|$69.95|$41.97",
     "sale|CozyFlannel™ Cotton Long Pajama Set|$79.95|$39.95",
@@ -11,5 +10,5 @@
     "sale|SoSoft™ Modal Short Pajama Set|$69.95|$41.97"
   ],
   "initialized": true,
-  "last_checked": "2026-11-24T12:19:18+00:00"
+  "last_checked": "2026-11-24T22:43:05+00:00"
 }
