@@ -1,15 +1,15 @@
 {
   "signals": [
     "banner|5/$40 Mists & Lotions Tre",
-    "menu|30% off Sleep",
-    "sale|Cozy Plush Robe|$69.95|$48.96",
-    "sale|CozyFlannel™ Cotton Long Pajama Set|$79.95|$49.95",
-    "sale|CozyFlannel™ Cotton Long Tee-Jama & Scrunchie Set|$69.95|$48.96",
-    "sale|CozyFlannel™ Cotton Short Pajama Set|$69.95|$48.96",
-    "sale|CozyFlannel™ Cotton Short Tee-Jama & Scrunchie Set|$59.95|$41.96",
-    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$55.96",
-    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$48.96"
+    "menu|40% Off Sleep",
+    "sale|Cozy Plush Robe|$69.95|$41.97",
+    "sale|CozyFlannel™ Cotton Long Pajama Set|$79.95|$39.95",
+    "sale|CozyFlannel™ Cotton Long Tee-Jama & Scrunchie Set|$69.95|$35.00",
+    "sale|CozyFlannel™ Cotton Short Pajama Set|$69.95|$35.00",
+    "sale|CozyFlannel™ Cotton Short Tee-Jama & Scrunchie Set|$59.95|$35.00",
+    "sale|SoSoft™ Modal Long Pajama Set|$79.95|$47.97",
+    "sale|SoSoft™ Modal Short Pajama Set|$69.95|$41.97"
   ],
   "initialized": true,
-  "last_checked": "2026-11-24T01:50:36+00:00"
+  "last_checked": "2026-11-24T12:19:18+00:00"
 }
