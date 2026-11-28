@@ -1,5 +1,8 @@
 {
   "signals": [
+    "banner|40% Off Everything Exclusions apply",
+    "banner|40% Off Everything HAPPENING NOW",
+    "banner|7/$35 Panty Party Trendin",
     "menu|40% Off Sleep",
     "sale|Cozy Plush Robe|$69.95|$41.97",
     "sale|CozyFlannel™ Cotton Long Pajama Set|$79.95|$39.95",
@@ -11,5 +14,5 @@
     "sale|Waffle Knit Long-Sleeve Short Pajama Set|$54.95|$32.97"
   ],
   "initialized": true,
-  "last_checked": "2026-11-28T02:55:29+00:00"
+  "last_checked": "2026-11-28T11:35:17+00:00"
 }
